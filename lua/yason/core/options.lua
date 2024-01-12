@@ -19,6 +19,8 @@ opt.smartcase = true -- assume that if using mixed case in the search, you want 
 -- cursor line
 opt.cursorline = true -- highlight the current cursor line
 
+opt.scrolloff = 5
+
 -- appearance
 opt.signcolumn = "yes" -- show sign column so that the text doesn't shift
 
