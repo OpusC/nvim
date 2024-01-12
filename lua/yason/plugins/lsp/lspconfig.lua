@@ -85,6 +85,17 @@ return {
 			capabilities = capabilities,
 			on_attach = on_attach,
 		})
+		-- configure c++ server
+		lspconfig["clangd"].setup({
+			capabilities = capabilities,
+			on_attach = on_attach,
+		})
+
+		-- configure typescript server with plugin
+		lspconfig["tsserver"].setup({
+			capabilities = capabilities,
+			on_attach = on_attach,
+		})
 
 		-- configure tailwindcss server
 		lspconfig["tailwindcss"].setup({
